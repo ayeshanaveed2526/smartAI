@@ -1,0 +1,56 @@
+body{
+    background-color: #000;
+    color: aliceblue;
+    font-family: ubuntu;
+}
+.questionbox{
+    background-color: #111;
+    border: 1px solid #333;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+
+/* }
+#answer{
+    background-color: #333;
+    border: 1px solid #555;
+    padding: 10px; */
+
+}
+#mybtn{
+    background-color: rgb(26, 104, 26);
+    color: white;
+border: none;
+    padding: 7px 30px;
+    margin: 30px auto;
+   display: block;
+
+font-weight: bold;
+}
+#mybtn:hover{
+    background-color: rgb(4, 55, 4);
+    color: white;
+    cursor: pointer;
+
+}
+#userInput{
+    background-color: #333;
+    border: 1px solid #555;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    color: white;
+}
+#answer {
+  margin: 30px auto;
+  max-width: 600px;
+  padding: 20px;
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  
+  font-family: 'Roboto', 'Outfit', 'Ubuntu', sans-serif;
+  font-size: 1.1rem;
+  color: #222;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  white-space: pre-line; /* preserves line breaks */
+}
